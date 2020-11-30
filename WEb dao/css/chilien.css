@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    background-color: rgb(250, 250, 250);
+   
+}
+
+.code{
+    margin-left: 100px;
+    margin-right:100px;
+}
+.navage{
+    top: 0px;
+    background-color: brown;
+    position: relative;   /*vi tri cho thanh trang thai*/
+    overflow: hidden;
+}
+/*trag tri cho phan tu trong thah dieu huong*/
+.navage a{
+    color: white;
+    padding: 19px 16px;
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    font-size: 1em;
+    float: left;
+    
+}
+#icon{
+    width:50px;
+    height:44px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navage a:hover{
+    background-color: rgb(218, 134, 9);
+    color: rgb(243, 242, 240);
+    border-radius:2px;
+}
+
+input{
+    margin-top: 10px;
+    margin-right:100px;
+    width: 280px;
+    height: 35px;
+    float: right;
+    border-radius:7px;
+    border-color: rgb(228, 94, 5) ;
+    background-color: aliceblue;
+    outline:none;
+    font-size: 15px;
+}
+
+
+#anhnen{
+    width:40%;
+    float: right;
+    margin-right: 40px;
+}
+
+.chi1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    margin-top: 150px;
+    margin-left:60px;
+    margin-right:60px;
+    
+}
+#dangnhap{
+    width: 100px;
+    height:40px;
+    margin-left: 10px;
+    margin-right: 290px;
+    background-color: brown;
+    color: white;
+    outline:red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

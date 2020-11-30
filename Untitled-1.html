@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+    <title> lap trinh web</title>
+    <style>
+
+        /*tao vi tri va che do hien thi cho div truoc*/
+        .chi{
+            position:relative;
+            display: inline-block;
+        }
+
+        .chi1{
+            display: none;
+            position:absolute;
+            background-color: aqua;
+            min-width: 140px;
+            box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+            padding: 12px 14px;
+            z-index: 1;
+        }
+
+        .chi:hover .chi1{
+            display: block;
+        }
+
+    </style>
+</html>
+<body>
+    <div class="chi">
+        <span>Phan Thanh Chi</span>
+        <div class = "chi1">
+            <p>Chào phan thanh chi</p>
+        </div>
+    </div>
+</body>

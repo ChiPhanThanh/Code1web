@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>chào chi</title>
+    <style>
+        .chi{
+            display: inline-block;
+        }
+        .chi a{
+            color:aqua;
+            float:left;
+            padding: 8px 16px;
+            text-decoration:none;
+            transition:background-color .3s;
+            border: 1px solid #ddd;
+        }
+
+        .active{
+            background-color: brown;
+            color:white;
+            border: 1px solid red;
+        }
+
+        .chi a:hover:not(.active){
+            background-color: #ddd;
+        }
+    </style>
+</html>
+
+<body>
+    <div class="chi">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&laquo;</a>
+    </div>
+</body>
